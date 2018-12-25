@@ -1,0 +1,31 @@
+body {
+  background-color: white;
+}
+h1 {
+  text-align: center;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 28px
+  font-variant: small-caps;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px
+  font-variant: small-caps;
+}
+
+p {
+  text-align: center;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px
+  font-variant: small-caps;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
