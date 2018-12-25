@@ -1,11 +1,11 @@
 /* nav bar */
-.topnav {
+.pill-nav {
   background-color: black;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.pill-nav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -16,13 +16,13 @@
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.pill-nav a:hover {
   background-color: white;
   color: black;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+.pill-nav a.active {
   background-color: white;
   color: black;
 }
