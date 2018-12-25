@@ -1,3 +1,32 @@
+/* nav bar */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: white;
+  color: black;
+}
+
 body {
   font-family: Times;
   padding: 20px;
@@ -6,8 +35,9 @@ body {
 
 /* Header/Blog Title */
 .header {
-  padding: 30px;
-  font-size: 40px;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
   text-align: center;
   background: white;
 }
