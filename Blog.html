@@ -3,6 +3,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="BlogCSS.css">
 </head>
+<body>
 <div class="pill-nav">
   <a href="index.html">Home</a>
   <a href="About.html">About</a>
@@ -22,7 +23,10 @@
       <h2>Merry Christmas</h2>
       <h5>Home for the holidays, Dec 25, 2018</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
+      <p>Some text
+      <span id="dots">...</span><span id="more">
+      success  </span></p>
+      <button onclick="myFunction()" id="myBtn">Read more</button>
     </div>
     <div class="card">
       <h2>Merry Christmas</h2>
@@ -38,3 +42,6 @@
     </div>
   </div>
 </div>
+<script type="text/javascript" src="readmore.js"></script>
+</body>
+</html>
