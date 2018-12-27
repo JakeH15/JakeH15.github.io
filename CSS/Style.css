@@ -8,7 +8,7 @@ h1 {
   font-family: "Times New Roman", Times, serif;
   font-size: 28px
   font-variant: small-caps;
-
+  line-height: 1.5;
 }
 
 .essay {
@@ -17,7 +17,7 @@ h1 {
   font-family: "Times New Roman", Times, serif;
   font-size: 25px
   font-variant: small-caps;
-  text-indent: inherit;
+
 }
 
 h2 {
@@ -41,6 +41,8 @@ p {
   font-family: "Times New Roman", Times, serif;
   font-size: 12px
   font-variant: small-caps;
+  text-indent: 1.5em;
+  line-height: 2;
 }
 
 .essay p {
@@ -57,6 +59,7 @@ ol {
 }
 li {
   padding: 3px;
+  line-height: 1.5;
 }
 .pill-nav {
   background-color: black;
