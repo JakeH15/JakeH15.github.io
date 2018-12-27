@@ -1,27 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link rel="stylesheet" type="text/css" href="CSS/Style.css">
-<script src="js/dropdown.js"></script>
+  <meta name="author" content="Jake Holt">
+  <meta name="description" content="Essays written by Jake Holt">
+  <meta name="keywords" content="Jake Holt, Georgia Institute of Technology, Armstrong State University, Literature, Biology, Biophysics, Paper Critiques">
+  <title>Essays</title>
+  <link rel="stylesheet" type="text/css" href="CSS/Style.css">
+  <script src="js/dropdown.js"></script>
 </head>
-
 <body>
-<div class="pill-nav">
-  <a href="index.html">Home</a>
-  <a href="About.html">About</a>
-  <a href="Resume.html">Resume</a>
-  <a href="Projects.html">Projects</a>
-  <a class="active" href="Essays.html">Essays</a>
-  <a class="Cycling.html" href="Cycling.html">Cycling Palmares<a/>
-</div>
-<h1>Essays</h1>
-
-<div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Paper Critiques</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="TP53PaperCritique.html">Cell Paper Critique</a>
+<nav>
+  <div class="pill-nav" role="navigation">
+    <a href="index.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="Resume.html">Resume</a>
+    <a href="Projects.html">Projects</a>
+    <a class="active" href="Essays.html">Essays</a>
+    <a class="Cycling.html" href="Cycling.html">Cycling Palmares<a/>
   </div>
-</div>
-
+</nav>
+<h1 id="title">Essays</h1>
+<nav>
+  <div class="dropdown" role="button">
+    <button onclick="myFunction()" class="dropbtn">Paper Critiques</button>
+    <div id="myDropdown" class="dropdown-content" role="navigation">
+      <a href="TP53PaperCritique.html">Cell Paper Critique</a>
+    </div>
+  </div>
+</nav>
 </body>
 </html>
