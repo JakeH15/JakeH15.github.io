@@ -8,6 +8,16 @@ h1 {
   font-family: "Times New Roman", Times, serif;
   font-size: 28px
   font-variant: small-caps;
+
+}
+
+.essay {
+  text-align: left;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px
+  font-variant: small-caps;
+  text-indent: inherit;
 }
 
 h2 {
@@ -17,7 +27,14 @@ h2 {
   font-size: 20px
   font-variant: small-caps;
 }
-
+h3 {
+  text-align: center;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px
+  font-variant: small-caps;
+  text-decoration: underline;
+}
 p {
   text-align: center;
   color: black;
@@ -33,7 +50,14 @@ p {
   font-size: 12px
   font-variant: small-caps;
 }
-
+ol {
+  /* background: #ffe5e5;
+  padding: 5px; */
+  margin-left: 5px;
+}
+li {
+  padding: 3px;
+}
 .pill-nav {
   background-color: black;
   overflow: hidden;
