@@ -12,6 +12,7 @@ h1 {
 }
 
 .essay {
+  margin-left: 20px;
   text-align: left;
   color: black;
   font-family: "Times New Roman", Times, serif;
@@ -60,6 +61,19 @@ ol {
 li {
   padding: 3px;
   line-height: 1.5;
+}
+
+.Button {
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 90%;
+  background-color: black;
+  font-size: 20px;
+}
+
+.Button a:hover {
+  background-color: white;
+  color: black;
 }
 .pill-nav {
   background-color: black;
