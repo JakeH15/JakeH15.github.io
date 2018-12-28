@@ -29,6 +29,7 @@ h2 {
   font-size: 20px
   font-variant: small-caps;
 }
+
 h3 {
   text-align: center;
   color: black;
@@ -37,6 +38,7 @@ h3 {
   font-variant: small-caps;
   text-decoration: underline;
 }
+
 p {
   text-align: center;
   color: black;
@@ -47,13 +49,6 @@ p {
   line-height: 2;
 }
 
-.essay p {
-  text-align: left;
-  color: black;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 12px
-  font-variant: small-caps;
-}
 ol {
   /* background: #ffe5e5;
   padding: 5px; */
@@ -209,3 +204,21 @@ li {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+/* for resume and projects embed*/
+.documentembed {
+display:block;
+margin-left: auto;
+margin-right: auto;
+margin:30px;
+width:100%;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
