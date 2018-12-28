@@ -9,6 +9,7 @@
   <title>Projects</title>
   <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
   <link rel="stylesheet" type="text/css" href="CSS/Style.css">
+  <script src="js/dropdown.js"></script>
 </head>
 <nav>
   <div class="pill-nav" role="navigation">
@@ -22,5 +23,14 @@
 </nav>
 <body>
 <h1 id="title">Projects</h1>
-
+<nav>
+  <div class="dropdown" role="button">
+    <button onclick="myFunction()" class="dropbtn">Into to Bioinformatics projects</button>
+    <div id="myDropdown" class="dropdown-content" role="navigation">
+      <a href="Project1.html">Analysis of Differentially Regulated Genes</a>
+      <a href="Project2.html">Exome Analysis Using Data from 1000 Genomes Project</a>
+    </div>
+  </div>
+</nav>
+</body>
 </html>
