@@ -214,11 +214,19 @@ margin:30px;
 width:100%;
 }
 
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-    text-decoration: none;
-    color: initial;
+.returnbutton {
+  text-align: center;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  margin-left: 20px;
+  margin-top: 15px;
+  background-color: black;
+  padding:5px;
+  color: white;
+  text-decoration: none;
+}
+.returnbutton a:hover {
+  background-color: white;
+  color: black;
 }
