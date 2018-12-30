@@ -1,15 +1,33 @@
 /* Add Compound Selectors and pseudo selectors */
 body {
   background-color: #F0EAD6;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px
+  font-variant: small-caps;
+  line-height: 2;
 }
 
 h1, h2, h3 {
   text-align: center;
   color: black;
   font-family: "Times New Roman", Times, serif;
-  font-size: 28px
   font-variant: small-caps;
-  line-height: 1.5;
+  line-height: 1;
+}
+h1{
+  text-align: center;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  font-size: 28px;
+}
+h2 {
+  text-align: center;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  font-size: 20px
 }
 
 .essay {
@@ -19,52 +37,53 @@ h1, h2, h3 {
   font-family: "Times New Roman", Times, serif;
   font-size: 25px
   font-variant: small-caps;
-
 }
-
-h2 {
-  font-size: 20px
-}
-
 h3.essay {
+    font-family: "Times New Roman", Times, serif;
   text-decoration: underline;
 }
-
+h2.essay{
+  text-align: left;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  line-height: 1.5;
+}
 p {
   text-align: center;
   color: black;
   font-family: "Times New Roman", Times, serif;
   font-size: 12px
   font-variant: small-caps;
-  text-indent: 1.5em;
   line-height: 2;
+}
+p.essay{
+  text-indent: 1.5em;
+}
+p.body{
 }
 
 ol {
-  /* background: #ffe5e5;
-  padding: 5px; */
-  margin-left: 5px;
+  padding: 5px;
+  margin-left: 30px;
 }
+
 li {
   padding: 3px;
   line-height: 1.5;
 }
+
 lh {
   text-decoration: underline;
   font-size: 20px;
 }
-
-.Button {
+footer {
+  font-style: italic;
   text-align: center;
-  margin-top: 20px;
-  margin-right: 90%;
-  background-color: black;
-  font-size: 20px;
-}
-
-.Button a:hover {
-  background-color: white;
-  color: black;
+  bottom: 0px;
+  left:inherit;
+  width:100%;
+  padding:0px;
 }
 .pill-nav {
   background-color: black;
@@ -140,11 +159,12 @@ lh {
 
 /* for resume and projects embed*/
 .documentembed {
-display:block;
-margin-left: auto;
-margin-right: auto;
-margin:30px;
-width:100%;
+  text-align: center;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin:30px;
+  width:100%;
 }
 
 .returnbutton {
@@ -162,4 +182,13 @@ width:100%;
 .returnbutton a:hover {
   background-color: white;
   color: black;
+}
+
+.flexcontainer{
+  display: grid;
+  grid-template-columns: ;
+
+}
+.item-f{
+  grid-area: footer;
 }
