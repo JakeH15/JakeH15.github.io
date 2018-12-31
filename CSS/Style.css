@@ -209,7 +209,7 @@ img {
   grid-gap: 20px;
 }
 .palmarescontainer {
-  grid-template-columns:50% 50%;
+  grid-template-columns:33% 33% 33%;
   display: grid;
   grid-gap: 20px;
 
@@ -225,4 +225,11 @@ img {
   border-style: double solid;
   border-color: black;
   margin-right: 20px;
+}
+.item3 {
+  grid-column-start: 3;
+  border-style: double solid;
+  border-color: black;
+  margin-right: 20px;
+  margin-left: 20px;
 }
