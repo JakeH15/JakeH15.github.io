@@ -39,7 +39,7 @@ h2 {
   font-variant: small-caps;
 }
 h3.essay {
-    font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif;
   text-decoration: underline;
 }
 h2.essay{
@@ -48,6 +48,17 @@ h2.essay{
   font-family: "Times New Roman", Times, serif;
   font-variant: small-caps;
   line-height: 1.5;
+}
+a {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px
+  font-variant: small-caps;
+  line-height: 1.5;
+  text-decoration: none;
+}
+a:hover{
+  color: blue;
 }
 p {
   text-align: center;
@@ -60,9 +71,16 @@ p {
 p.essay{
   text-indent: 1.5em;
 }
-p.body{
+p.about{
+  margin-left: 25%;
+  margin-right: 25%;
 }
-
+p.returnbutton {
+  margin-left: 20px;
+  text-align: left;
+  line-height: 2;
+  font-family: "Times New Roman", Times, serif;
+}
 ol {
   padding: 5px;
   margin-left: 30px;
@@ -165,30 +183,4 @@ footer {
   margin-right: auto;
   margin:30px;
   width:100%;
-}
-
-.returnbutton {
-  text-align: center;
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-  margin-left: 20px;
-  margin-top: 20px;
-  background-color: black;
-  padding:5px;
-  color: white;
-  text-decoration: none;
-}
-.returnbutton a:hover {
-  background-color: white;
-  color: black;
-}
-
-.flexcontainer{
-  display: grid;
-  grid-template-columns: ;
-
-}
-.item-f{
-  grid-area: footer;
 }
