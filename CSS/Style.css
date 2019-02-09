@@ -116,6 +116,7 @@ footer {
   position: fixed;
   font-style: italic;
   text-align: center;
+  background: #F0EAD6;
   bottom: 0px;
   left:inherit;
   width:100%;
