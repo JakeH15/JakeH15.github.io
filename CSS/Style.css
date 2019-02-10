@@ -241,6 +241,10 @@ img {
   margin-right: 20px;
   margin-left: 20px;
 }
+a {
+  text-decoration: underline;
+  color: #ED7117;
+}
 a:hover{
   color: blue;
 }
