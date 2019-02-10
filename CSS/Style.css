@@ -241,9 +241,9 @@ img {
   margin-right: 20px;
   margin-left: 20px;
 }
-.outsidelink {
-  color: blue;
-}
-
 a:hover{
   color: blue;
+}
+.outsidelink {
+  font-style: underline;
+}
