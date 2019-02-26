@@ -220,12 +220,13 @@ img {
 .container {
   display: grid;
   grid-template-columns: 70% 30%;
-  grid-gap: 20px;
+  grid-template-rows: auto;
+  grid-gap: 10px;
 }
 .palmarescontainer {
   grid-template-columns:33% 33% 33%;
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 10px;
 
 }
 .item1 {
@@ -233,6 +234,7 @@ img {
   border-style: double solid;
   border-color: black;
   margin-left: 20px;
+  margin-bottom: 20px;
   background-color: white;
 }
 .item2 {
@@ -240,15 +242,30 @@ img {
   border-style: double solid;
   border-color: black;
   margin-right: 20px;
+  margin-bottom: 20px;
   background-color: white;
 }
 .item2fixed {
   grid-column-start: 2;
-  grid-row: 1 / 3;
+  grid-row-start: 1;
+  grid-row-end: 6;
   border-style: double solid;
   border-color: black;
   margin-right: 20px;
+  margin-bottom: 20px;
   background-image: url("Dia-D0(F).jpg");
+}
+.itemfooter {
+  grid-column: auto;
+  grid-row: auto;
+  position: fixed;
+  font-style: italic;
+  text-align: center;
+  background: #F0EAD6;
+  bottom: 0px;
+  left:inherit;
+  width:100%;
+  padding:0px;
 }
 a {
   text-decoration: underline;
