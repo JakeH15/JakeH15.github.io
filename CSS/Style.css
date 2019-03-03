@@ -1,15 +1,11 @@
 /* Add Compound Selectors and pseudo selectors */
-html, body {
-  height:100%;
-  width:100%;
-}
-
 body {
+  min-height: 100%;
+  margin-bottom: 6%;
   background-color: #F0EAD6;
   color: black;
   font-family: "Times New Roman", Times, serif;
-  font-size: 12px
-  font-variant: small-caps;
+  font-size: 17px;
   line-height: 2;
 }
 
@@ -56,7 +52,7 @@ h3.essay {
   text-align: left;
   color: black;
   font-variant: small-caps;
-  line-height: 1.5;
+  line-height: 1;
   font-size: 15px;
 }
 lh.essay {
@@ -133,7 +129,6 @@ lh.blog{
 }
 footer {
   height: 8%;
-  min-width:100%;
   position: fixed;
   font-style: italic;
   text-align: center;
@@ -294,10 +289,4 @@ a:hover{
   color: blue;
 }
 .outsidelink {
-}
-main {
-  height: 92%:
-}
-footer {
-  height: 8%
 }
