@@ -30,7 +30,14 @@ h2 {
   font-variant: small-caps;
   font-size: 20px
 }
-
+h2.center {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: black;
+  font-variant: small-caps;
+  line-height: 1;
+  font-size: 15px;
+}
 .centerimage {
   display: center;
   border-radius: 8px;
@@ -44,8 +51,6 @@ h2 {
   text-align: left;
   color: black;
   font-family: "Times New Roman", Times, serif;
-  font-size: 25px
-  font-variant: small-caps;
 }
 h3.essay {
   font-family: "Times New Roman", Times, serif;
@@ -109,6 +114,9 @@ p.returnbutton {
   text-align: left;
   line-height: 2;
   font-family: "Times New Roman", Times, serif;
+}
+p.center {
+  text-align: center;
 }
 ol {
   padding: 5px;
