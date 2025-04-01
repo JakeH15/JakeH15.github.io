@@ -1,9 +1,5 @@
-#title: Jacob Holt
-#logo: /assets/img/headshot_circl.png
+title: Jacob Holt
+logo: /assets/img/headshot.jpg
 #description: text below image
 show_downloads: false
 theme: jekyll-theme-minimal
-
-author:
-  name   : "Jacob Holt"
-  avatar : "/assets/img/headshot.jpg"

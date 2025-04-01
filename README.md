@@ -1,6 +1,6 @@
-# About
+# Research Interests
 
-# Research Projects
+# Projects
 
 ## Horizontal gene transfer on chitin
 
