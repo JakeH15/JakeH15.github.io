@@ -6,7 +6,7 @@ theme: jekyll-theme-minimal
 
 author:
   name   : "Jacob Holt"
-  #avatar : "/assets/images/rg.jpg"
+  avatar : "/assets/images/headshot.jpg"
 #  bio    : >-
 #    My name is Renato.
 #
@@ -21,10 +21,3 @@ author:
     - label: "Resume"
       icon: "far fa-fw fa-file-pdf"
       url: "/assets/JakeHolt_CV_web.pdf"
-
-
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/JakeH15"
