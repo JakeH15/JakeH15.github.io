@@ -1,6 +1,6 @@
 # Research Interests
 
-I am broadly interested in maintenance of diversity within biofilms, structured communities of microbes adhered to one-another and to a surface through an extracellular matrix composed of proteins, eDNA, and polysaccharides. In particular, I am interested in how these communities, in the natural environment, can select for or against pathogenic traits.
+<p>I am broadly interested in maintenance of diversity within biofilms, structured communities of microbes adhered to one-another and to a surface through an extracellular matrix composed of proteins, eDNA, and polysaccharides. In particular, I am interested in how these communities, in the natural environment, can select for or against pathogenic traits.</p>
 
 # Projects
 
