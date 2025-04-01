@@ -6,12 +6,12 @@
 
 ## Horizontal gene transfer on chitin
 
-<p>Using V. cholerae and microfluidic devices I study how genetic material can be transferred horizontally on chitin surfaces.</p>
+Using <em>Vibrio cholerae</em> and microfluidic devices I study how genetic material can be transferred horizontally on chitin surfaces.
 
 ## Community assembly on chitin
 
-<p>Using the obligate bacterial predator Bdellovibrio bacteriovorus and Vibrio cholerae I study how biofilm formation on chitin alters community dynamics in a simple predator-prey system.</p>
+Using the obligate bacterial predator Bdellovibrio bacteriovorus and Vibrio cholerae I study how biofilm formation on chitin alters community dynamics in a simple predator-prey system.
 
 ## Mechanisms of biofilm formation on chitin
 
-<p>V. cholerae encodes a diverse array of secreted proteins which can contribute to biofilm formation. Using chitin under fluid flow I am studying how strains carrying different subsets of proteins form biofilm on chitin</p>
+V. cholerae encodes a diverse array of secreted proteins which can contribute to biofilm formation. Using chitin under fluid flow I am studying how strains carrying different subsets of proteins form biofilm on chitin
