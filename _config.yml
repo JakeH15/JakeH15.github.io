@@ -3,3 +3,9 @@ title: Jacob Holt
 #description: text below image
 show_downloads: false
 theme: jekyll-theme-minimal
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/JakeH15"
