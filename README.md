@@ -1,11 +1,9 @@
-# PhD Candidate
+# About
 
-## About
+# Research Projects
 
-## Research Projects
+## Horizontal gene transfer on chitin
 
-### Horizontal gene transfer on chitin
+## Community assembly on chitin
 
-### Community assembly on chitin
-
-### Mechanisms of biofilm formation on chitin
+## Mechanisms of biofilm formation on chitin
